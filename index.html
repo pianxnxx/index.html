@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kata-Kata Romantis</title>
+</head>
+<body>
+    <h1>Kata-Kata Romantis</h1>
+    <img src="https://i.imgur.com/i9GdZIp.jpeg" alt="Gambar Romantis" style="width:300px;height:auto;">
+    <p id="kata"></p>
+
+    <script>
+        const kataKata = [
+    "Selamat pagi, sayang! Cintaku, calon istriku, semangat ya untuk hari ini. Maaf jika sikapku atau egoku pernah membuatmu sakit hati atau marah. Maaf ya, sayang. Intinya, aku sangat mencintaimu. I love you!"
+];
+
+
+        const randomIndex = Math.floor(Math.random() * kataKata.length);
+        document.getElementById("kata").innerText = kataKata[randomIndex];
+    </script>
+</body>
+</html>
